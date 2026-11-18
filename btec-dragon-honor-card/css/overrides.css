@@ -1,0 +1,9 @@
+/* Keep the autocomplete visible beyond the search panel's border. */
+.search-panel { clip-path: none; z-index: 5; }
+.footer-brand { display: inline-flex; align-items: center; gap: 9px; }
+.logo-frame--footer { width: 22px; height: 22px; border-width: 1px; box-shadow: none; }
+.logo-frame--footer .logo-fallback { font-size: 12px; letter-spacing: -1px; }
+@media (max-width: 600px) {
+  .welcome-content h1 { font-size: clamp(50px, 14vw, 84px); }
+  .search-results { position: static; max-height: 220px; margin-top: 8px; }
+}
